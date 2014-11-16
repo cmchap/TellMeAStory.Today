@@ -1,7 +1,7 @@
 /*jshint devel:true */
 $(document).ready( function() {
     var book = [];
-    $.get("Alice-sentences.txt", function(data){
+    $.get("data/Alice-sentences.txt", function(data){
         data = data.replace(/^/g, "/").replace(/\n/g, "\n/");
         // console.log("Insert first /: "+data);
         data = data.replace(/ /g, "/");
