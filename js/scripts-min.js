@@ -28,7 +28,7 @@ $(document).ready( function() {
     $("body").click().focus();
 
     var book = [];
-    $.get("Alice-Sentences.txt", function(data){
+    $.get("data/Alice-Sentences.txt", function(data){
         data = data.replace(/^/g, "/").replace(/\n/g, "\n/"); //insert / at beginning of each line
         data = data.replace(/ /g, "/"); //replace spaces with /
         data = data.replace(/`/g,"'"); //replace backticks with '
