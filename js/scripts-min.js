@@ -19,7 +19,7 @@ $(document).ready( function() {
 
     $("#ks").popover({
         html:       true,
-        placement:  "top",
+        placement:  "bottom",
         trigger:    "click",
         title:      "Keyboard Shortcuts",
         content:    '<span class="ks"><b>Next:</b><br>spacebar<br>enter<br>down arrow<br>right arrow</span><span class="ks"><b>Previous:</b><br>delete<br>up arrow<br>left arrow</span>'
